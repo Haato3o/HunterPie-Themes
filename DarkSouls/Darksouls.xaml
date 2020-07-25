@@ -23,7 +23,7 @@
     <Style x:Key="OVERLAY_MONSTER_HEALTH_BAR_STYLE" TargetType="{x:Type Custom:MinimalHealthBar}">
         <Setter Property="Background" Value="{StaticResource OVERLAY_MONSTER_HEALTH_BAR_BACKGROUND}"/>
         <Setter Property="Color" Value="{StaticResource OVERLAY_MONSTER_HEALTH_BAR_COLOR}"/>
-        <Setter Property="Margin" Value="48,0,18,0"/>
+        <Setter Property="Margin" Value="48,20,18,0"/>
         <Setter Property="Height" Value="25"/>
     </Style>
     
