@@ -9,7 +9,7 @@
     <sys:Double x:Key="OVERLAY_MONSTER_BAR_WIDTH_3">900</sys:Double>
     <sys:Double x:Key="OVERLAY_MONSTER_BAR_WIDTH_2">900</sys:Double>
     <sys:Double x:Key="OVERLAY_MONSTER_BAR_WIDTH_1">900</sys:Double>
-    <sys:Double x:Key="OVERLAY_MONSTER_BAR_HEIGHT">40</sys:Double>
+    <sys:Double x:Key="OVERLAY_MONSTER_BAR_HEIGHT">50</sys:Double>
     
     <Visibility x:Key="OVERLAY_SHOW_MONSTER_ICON">Hidden</Visibility>
 
@@ -37,6 +37,15 @@
         <Setter Property="Margin" Value="0,16,27,15"/>
         <Setter Property="TextAlignment" Value="Right"/>
         <Setter Property="Width" Value="95"/>
+    </Style>
+
+	
+    <Style x:Key="OVERLAY_MONSTER_PARTS_DISPLAY" TargetType="StackPanel">
+        <Setter Property="Visibility" Value="Collapsed"/>
+    </Style>
+
+    <Style x:Key="OVERLAY_MONSTER_WEAKNESS_DISPLAY" TargetType="StackPanel">
+        <Setter Property="IsEnabled" Value="False"/>
     </Style>
 
     <Style x:Key="OVERLAY_MONSTER_BAR_TEXT_STYLE" TargetType="TextBlock">
